@@ -1,9 +1,9 @@
 {
   "scanSettings": { 
     "enableLicenseViolations": true,
- "enableReachability": true,
-"exploitability": true, 
-"releaseBranches": ["v.*"],
+    "enableReachability": true,
+    "exploitability": true, 
+    "releaseBranches": ["v.*"],
     "configMode": "AUTO",
     "configExternalURL": "",
     "baseBranches": []
@@ -28,8 +28,8 @@
   "releaseBranchSettings": {
     "checkRunSettings.failOnLicenseViolation": true,
     "checkRunSettings.strictMode": "failure",
-    "checkRunSettings.failOnVulnerabilityMinCvss": 9.0,
-  }
+    "checkRunSettings.failOnVulnerabilityMinCvss": 9.0
+  },
   "issueSettings": {
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
